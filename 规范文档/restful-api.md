@@ -1,4 +1,4 @@
- RESTful API 来作为我们的 Web API 。介绍几种简洁 RESTful API 设计的最佳实践。
+﻿ RESTful API 来作为我们的 Web API 。介绍几种简洁 RESTful API 设计的最佳实践。
 
 ## 使用的名词而不是动词 {#使用的名词而不是动词}
 
