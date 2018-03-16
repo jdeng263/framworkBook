@@ -14,10 +14,10 @@
   * Maven3
 * 中间件&平台
   * [文件服务(TQOSS)](规范文档/tqoss.md)
-  * [配置中心(TQCONFIG)]
+  * [配置中心(TQCONFIG)](规范文档/tqconfig.md)
   * [网关API]
-  * [调用链路Eyes]
-  * [搜索服务Elaticsearch]
+  * [调用链路Eyes](规范文档/tqeyes.md)
+  * [搜索服务Elaticsearch](规范文档/tqsearch.md)
   * [监控平台]
   * [发布平台]
   * [大数据治理平台]
