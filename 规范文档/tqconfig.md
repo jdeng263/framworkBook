@@ -12,6 +12,18 @@
 ## 配置中心介绍
 
 
+Distributed Configuration Management Platform(分布式配置管理平台)
+
+专注于各种「分布式系统配置管理」的「通用组件」和「通用平台」, 提供统一的「配置管理服务」
+
+![](/assets/config/config.jpg)
+
+### 主要目标：
+> 部署极其简单：同一个上线包，无须改动配置，即可在 多个环境中(RD/QA/PRODUCTION) 上线   
+> 部署动态化：更改配置，无需重新打包或重启，即可 实时生效
+> 统一管理：提供web平台，统一管理 多个环境(RD/QA/PRODUCTION)、多个产品 的所有配置   
+> 核心目标：一个jar包，到处运行  
+
 1. 配置中心分为“开发”，“测试”，“生产” 3类环境， 每个 project只能属于一个环境.   
 2. oject会有多个版本的配置属性列表。 
 3. 属性，以及 TqConfigFactoryBean的localPropertyPath对于的本地配置文件的属性，优先级别高于配置中心值。 
