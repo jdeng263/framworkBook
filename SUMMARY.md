@@ -9,9 +9,9 @@
   * [常见问题](规范文档/chang-jian-wen-ti.md)
   * [DUBBOX](dubbox.md)
 * 工具
-  *git
-  *gitLab
-  *Maven3
+  * git
+  * gitLab
+  * Maven3
 * 中间件&平台
   * [文件服务(TQOSS)]
   * [配置中心(TQCONFIG)]
@@ -25,8 +25,8 @@
 * 方法
   * [敏捷开发]
   * [devOps]
-*最佳实践
- *[服务化]
- *[轨迹服务]
+* 最佳实践
+ * [服务化]
+ * [轨迹服务]
 * [RESTFUL API](规范文档/restful-api.md)
 * [用户中心API](规范文档/usercenter.md)
