@@ -47,7 +47,7 @@ Endpoint表示TQOSS对外服务的访问域名。内网Endpoint是internalEndpoi
 
 ## 申请TQOSS服务秘钥
 通过web界面，申请对应 Access Key和Access Secret，申请成功后，客户端需记录项目名project、Access Key和Access Secret，同时还会提供一个burket用来调用sdk。
-![](/assets/oss/1.png)
+![](/assets/oss/1.jpg)
 
 
 ## 阿里oss存储
@@ -202,18 +202,18 @@ auther通过clientConfiguration.getAutherHeader()编码获得。
 http://192.168.1.1:8080/tqOssManager/image/view/518aa339babd035251.jpg?auther=<message>
 
 ```
-![](/assets/oss/2.png)
+![](/assets/oss/2.jpg)
 将图缩略成宽度为100，高度为100，按短边边优先，将图片保存成jpg格式
 ```
 http://192.168.1.1:8080/tqOssManager/image/view/518aa339babd035251.jpg?w=200&h=200&auther=<message>
 ```
-![](/assets/oss/3.png)
+![](/assets/oss/3.jpg)
 
 旋转,ro为顺时针的翻转度数
 ```
 http://192.168.1.1:8080/tqOssManager/image/view/518aa339babd035251.jpg?ro=90&w=500&h=500&auther=<message>
 ```
-![](/assets/oss/4.png)
+![](/assets/oss/4.jpg)
 
 #### 文字水印
 ```
@@ -224,4 +224,4 @@ http://localhost:8080/tqOssManager/image/view/518aa339babd035251.jpg?wm=天阙�
 第二个参数文字的大小，如40
 第三个参数颜色rgb，如255-255-0
 第四个参数位置，如2-2（分别对应水平的左中右，纵向的上中下，此时为右下角）
-![](/assets/oss/5.png)
+![](/assets/oss/5.jpg)
