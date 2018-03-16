@@ -13,7 +13,7 @@
   * gitLab
   * Maven3
 * 中间件&平台
-  * [文件服务(TQOSS)]
+  * [文件服务(TQOSS)](规范文档/tqoss.md)
   * [配置中心(TQCONFIG)]
   * [网关API]
   * [调用链路Eyes]
