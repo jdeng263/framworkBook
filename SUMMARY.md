@@ -10,7 +10,7 @@
   * [常见问题](规范文档/chang-jian-wen-ti.md)
   * [DUBBOX](dubbox.md)
 * 工具
-  * git&gitLab
+  * git&gitLab(规范文档/git.md)
   * Maven3
 * 中间件&平台
   * [文件服务(TQOSS)](规范文档/tqoss.md)
@@ -20,7 +20,7 @@
   * [搜索服务Elaticsearch](规范文档/tqsearch.md)
   * [监控平台]()
   * [发布平台]()
-  * [大数据治理平台()]
+  * [大数据治理平台]()
   * [视频服务]()
 * 方法
   * [敏捷开发]()
