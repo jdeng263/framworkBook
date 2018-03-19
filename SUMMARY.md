@@ -10,7 +10,7 @@
   * [常见问题](规范文档/chang-jian-wen-ti.md)
   * [DUBBOX](dubbox.md)
 * 工具
-  * git&gitLab(规范文档/git.md)
+  * [git&gitLab](规范文档/git.md)
   * Maven3
 * 中间件&平台
   * [文件服务(TQOSS)](规范文档/tqoss.md)
