@@ -5,7 +5,7 @@
   * [技术栈](规范文档/ji-zhu-zhan.md)
   * [基础架构](规范文档/ji-chu-jia-gou.md)
   * [基础框架](规范文档/ji-chu-kuang-jia.md)
-  * [基础组件]
+  * [基础组件](规范文档/ji-chu-zu-jian.md)
   * [API最佳实践](规范文档/api.md)
   * [常见问题](规范文档/chang-jian-wen-ti.md)
   * [DUBBOX](dubbox.md)
@@ -18,13 +18,13 @@
   * [网关API](规范文档/gateway.md)
   * [调用链路Eyes](规范文档/tqeyes.md)
   * [搜索服务Elaticsearch](规范文档/tqsearch.md)
-  * [监控平台]
-  * [发布平台]
-  * [大数据治理平台]
-  * [视频服务]
+  * [监控平台]()
+  * [发布平台]()
+  * [大数据治理平台()]
+  * [视频服务]()
 * 方法
-  * [敏捷开发]
-  * [devOps]
+  * [敏捷开发]()
+  * [devOps]()
 * 最佳实践
  * [服务化]()
  * [轨迹服务]()
