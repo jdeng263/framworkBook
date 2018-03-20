@@ -23,7 +23,7 @@
 |redux        |                |           ||
 |React        |                |           ||
 |EcamScript6  |                |           ||
-|Docker       |                |           ||
+|Docker       |                |           |||
 
 
 
@@ -54,7 +54,7 @@
 |loadrunner     |     |        ||
 |Jmeter         |     |        ||
 |Jenkins        |     |        ||
-|Docker         |     |        ||
+|Docker         |     |        |||
 
 
 
@@ -66,9 +66,9 @@
 |推荐    |试用        | 评估| 过时|
 |--------|------------|-----|-----|
 |Memcached|kylin|Flink|Jetty6.0|
-|ZooKeeper|orientdb|Sky-walking|
-|Redis|otter|lastic-job|||
-|Activemq|canal|alluxio|||
+|ZooKeeper|orientdb|Sky-walking||
+|Redis|otter|lastic-job||
+|Activemq|canal|alluxio||
 |RabbitMQ|OpenResty|||
 |Kafka|Sonar|||
 |dubbo/dubbox|Weka|||
@@ -107,7 +107,7 @@
 |selenium||||
 |webdriver||||
 |appium||||
-|http requests(python类库)||||
+|http requests(python类库)|||||
 
 
 
