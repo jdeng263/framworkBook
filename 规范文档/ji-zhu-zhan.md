@@ -1,4 +1,9 @@
+# 整体架构解决方案
 ![](/assets/jsz.png)
+
+
+# 移动端解决方案
+![](/assets/solution.png)
 
 # 语言和框架
 
