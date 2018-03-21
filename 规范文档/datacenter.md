@@ -147,7 +147,7 @@ $ mvn tomcat7:run -Pproduct -Dport=8080
 
 ### datacenter-etcl部署
 
-1、 下载datacenter-manager源代码，通过并修改`filter-xxx.properties` 配置文件，按需修改。
+1、 下载datacenter-etcl源代码，通过并修改`filter-xxx.properties` 配置文件，按需修改。
 
 ​	*注：xxx为如果有多个etcl节点，需要拷贝其中一个并修改名称和配置信息，因为etcl执行节点并非集群化部署，而是以不同的单节点的形式独立存在。
 
@@ -171,19 +171,19 @@ tqoss.*
 mongodb.replicaSet=
 ```
 
-2、初始化依赖配置表，标准数据存储库中，建表文件位于项目位置，`target\classes\database\tables\003_datarepository.sql` ，复制脚本并手动执行。
+2、初始化依赖配置表，标准数据存储库中，建表文件位于项目位置，`target\classes\database\tables\003_datarepository.sql` ，复制脚本并手动执行，该脚本仅需执行一次。
 
-3、启动项目
+3、启动项目（不同节点用不同端口，该端口仅用作页面形式确认节点健康监控）
 
 ```shell
-$ mvn tomcat7:run -Pproduct -Dport=8101
+$ mvn tomcat7:run -Pxxx -Dport=8101
 ```
 
 4、在manager管理页面中新增节点"**基础配置  > 节点配置  > 管理节点 > 新增**",选择当前etcl节点对应的group，完成新增。
 
 ### datacenter-dataGateway部署
 
-1、 下载datacenter-manager源代码，通过并修改`filter-product.properties` 配置文件，按需修改。
+1、 下载datacenter-dataGateway源代码，通过并修改`filter-product.properties` 配置文件，按需修改。
 
 ```properties
 ## 缓存
@@ -206,4 +206,4 @@ jdbc.centerdata.*
 
 ```shell
 $ mvn tomcat7:run -Pproduct -Dport=8090
-```  
+```
